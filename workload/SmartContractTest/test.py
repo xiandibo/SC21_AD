@@ -18,10 +18,10 @@ w3 = Web3(Web3.HTTPProvider("http://10.20.36.229:5409"))
 # 总的被访问数据量（关系到冲突率）
 TotalRecords = 100000
 # 冲突率
-conflicRate = 0
+conflicRate = 0.9
 
 # 使用合约数量（分区）
-partitions = 16
+partitions = 20
 # 发送交易数量
 TransactionCount = 1024
 
