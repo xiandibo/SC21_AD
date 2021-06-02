@@ -51,7 +51,7 @@ Here is how to run a blockchain node and build a blockchain system.
 
 2. Run node
 
-   If this is a mining node:
+   If you want to run a mining node, then:
 
    ```
    $ ./build/bin/geth --datadir ./poadata/signer1/data --rpc --rpcaddr "0.0.0.0" --rpcport 5409 --rpcapi="eth,net,web3,personal,miner" --networkid 540980442 --port 9002 --allow-insecure-unlock --unlock 0xF886F1916926Dc60F9C75941dBEa1856f997FDe1 --password ./poadata/signer1/data/password  console
@@ -67,7 +67,7 @@ Here is how to run a blockchain node and build a blockchain system.
 
    
 
-   If this is a validation node:
+   If you want to run a validation node, then:
 
    ```
    $ ./build/bin/geth --datadir ./poadata/node1/data --rpc --rpcaddr "0.0.0.0" --rpcport 5409 --rpcapi="eth,net,web3,personal,miner" --networkid 540980442 --port 9002 --allow-insecure-unlock  console
