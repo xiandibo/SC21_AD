@@ -1,0 +1,50 @@
+INFO [07-14|16:26:16.480] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [07-14|16:26:16.480] The flag --rpc is deprecated and will be removed in the future, please use --http 
+WARN [07-14|16:26:16.480] The flag --rpcapi is deprecated and will be removed in the future, please use --http.api 
+INFO [07-14|16:26:16.480] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [07-14|16:26:16.481] Set global gas cap                       cap=25000000
+INFO [07-14|16:26:16.481] Starting peer-to-peer node               instance=Geth/v1.9.17-unstable-b8dd0890-20200710/linux-amd64/go1.14.4
+INFO [07-14|16:26:16.481] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [07-14|16:26:16.481] Allocated cache and file handles         database=/home/xiandibo/code/go-ethereum/geth/db/geth/chaindata cache=512.00MiB handles=524288
+INFO [07-14|16:26:16.492] Opened ancient database                  database=/home/xiandibo/code/go-ethereum/geth/db/geth/chaindata/ancient
+INFO [07-14|16:26:16.492] Initialised chain configuration          config="{ChainID: 88 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, YOLO v1: <nil>, Engine: ethash}"
+INFO [07-14|16:26:16.492] Disk storage enabled for ethash caches   dir=/home/xiandibo/code/go-ethereum/geth/db/geth/ethash count=3
+INFO [07-14|16:26:16.492] Disk storage enabled for ethash DAGs     dir=/home/xiandibo/.ethash count=2
+INFO [07-14|16:26:16.492] Initialising Ethereum protocol           versions="[65 64 63]" network=88 dbversion=7
+INFO [07-14|16:26:16.492] Loaded most recent local header          number=599 hash="b38986…43c92f" td=78796151 age=1h11m40s
+INFO [07-14|16:26:16.492] Loaded most recent local full block      number=599 hash="b38986…43c92f" td=78796151 age=1h11m40s
+INFO [07-14|16:26:16.492] Loaded most recent local fast block      number=599 hash="b38986…43c92f" td=78796151 age=1h11m40s
+INFO [07-14|16:26:16.493] Loaded local transaction journal         transactions=0 dropped=0
+INFO [07-14|16:26:16.493] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [07-14|16:26:16.493] Switch sync mode from fast sync to full sync 
+INFO [07-14|16:26:16.506] New local node record                    seq=162 id=08ff940800474fc0 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [07-14|16:26:16.506] Started P2P networking                   self=enode://cc15c8bc753467ddf3a8ede29ce2048d4b4de53439ee1902af57d8072ebf34c4eaf54b9e2470702f9629fec44b1705c644a0918d40d2eabd3b70b749aea2d243@127.0.0.1:30303
+INFO [07-14|16:26:16.508] IPC endpoint opened                      url=/home/xiandibo/code/go-ethereum/geth/db/geth.ipc
+INFO [07-14|16:26:16.508] HTTP endpoint opened                     url=http://127.0.0.1:8545/ cors= vhosts=localhost
+INFO [07-14|16:26:16.537] Etherbase automatically configured       address=0xBdDb15bbe01763Cd41B990E72ec6aA0b867e4aa8
+INFO [07-14|16:27:51.250] Looking for peers                        peercount=1 tried=43 static=0
+INFO [07-14|16:28:21.926] Looking for peers                        peercount=2 tried=33 static=0
+INFO [07-14|16:28:32.687] Looking for peers                        peercount=1 tried=67 static=0
+INFO [07-14|16:29:34.506] Looking for peers                        peercount=0 tried=58 static=0
+INFO [07-14|16:29:44.622] Looking for peers                        peercount=1 tried=61 static=0
+INFO [07-14|16:30:04.752] Looking for peers                        peercount=1 tried=71 static=0
+INFO [07-14|16:30:45.524] Looking for peers                        peercount=2 tried=62 static=0
+INFO [07-14|16:31:16.150] Looking for peers                        peercount=0 tried=41 static=0
+INFO [07-14|16:31:26.264] Looking for peers                        peercount=2 tried=63 static=0
+INFO [07-14|16:31:56.526] Looking for peers                        peercount=2 tried=33 static=0
+INFO [07-14|16:32:27.083] Looking for peers                        peercount=0 tried=20 static=0
+WARN [07-14|16:32:50.218] Served eth_sendTransaction               conn=127.0.0.1:56826 reqid=3 t="280.962µs" err="authentication needed: password or unlock"
+INFO [07-14|16:33:28.048] Looking for peers                        peercount=0 tried=57 static=0
+INFO [07-14|16:33:38.048] Looking for peers                        peercount=2 tried=62 static=0
+INFO [07-14|16:33:48.121] Looking for peers                        peercount=1 tried=60 static=0
+INFO [07-14|16:33:52.569] HTTP endpoint closed                     url=http://127.0.0.1:8545/
+INFO [07-14|16:33:52.569] IPC endpoint closed                      url=/home/xiandibo/code/go-ethereum/geth/db/geth.ipc
+INFO [07-14|16:33:52.569] Ethereum protocol stopped 
+INFO [07-14|16:33:52.569] Transaction pool stopped 
+INFO [07-14|16:33:52.569] Writing cached state to disk             block=599 hash="b38986…43c92f" root="af5dab…7ad425"
+INFO [07-14|16:33:52.569] Persisted trie from memory database      nodes=0 size=0.00B time="9.53µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-14|16:33:52.569] Writing cached state to disk             block=598 hash="cd81ba…37c10c" root="7a70c5…003a69"
+INFO [07-14|16:33:52.569] Persisted trie from memory database      nodes=0 size=0.00B time="3.664µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-14|16:33:52.570] Writing cached state to disk             block=472 hash="839cea…1a292a" root="e83282…19cbab"
+INFO [07-14|16:33:52.570] Persisted trie from memory database      nodes=0 size=0.00B time="3.667µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-14|16:33:52.570] Blockchain stopped 

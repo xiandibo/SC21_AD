@@ -1,0 +1,3 @@
+admin.peers
+admin.addPeer('enode://fc460f083afd041ebe763def9066654da322da35ec29ce119b95fd0d55c2bf10a4068ffda9a7eed1f1fe948282bd6dc3b7015b9e75cfd79cfe94aa13aaa674aa@10.20.3.46:9002?discport=0')
+eth.getBlock(2)
